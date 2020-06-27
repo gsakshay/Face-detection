@@ -11,12 +11,9 @@ import Clarifai from 'clarifai';
 import './App.css';
 
 
-const app=new Clarifai.App({
-  apiKey:"enter your api key"
+const app = new Clarifai.App({
+  apiKey: "32a9d392f9fc4530ad945c248c4ae3c0",
 });
-
-
-
 
 const initialState ={
       input:'',
